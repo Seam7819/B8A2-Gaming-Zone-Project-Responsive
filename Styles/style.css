@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,800;1,400;1,700&family=Work+Sans:wght@400;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* nav section start  */
+nav {
+    display: flex;
+    max-width: 1100px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo-title {
+    color: #FF42A5;
+}
+
+.nav-title {
+    font-size: 2rem;
+    font-family: 'Work Sans';
+}
+
+.nav-logo {
+    margin-right: 20px;
+}
+
+.menus a {
+    text-decoration: none;
+    font-family: 'Work Sans';
+    text-align: center;
+    font-size: 1rem;
+    color: #3C354F;
+}
+
+.menus {
+    width: 50%;
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+}
+
+.nav-btn {
+    width: 150px;
+    height: 35px;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    border: none;
+    cursor: pointer;
+}
+#yt-icon {
+    color: red;
+}
+
+/* nav section end  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* use media quire for reponsive mobile device start */
+
+@media screen and (max-width: 425px) {
+    nav {
+        flex-direction: column;
+    }
+    .menus, a {
+        flex-direction: column;
+        margin-top: 20px;
+    }
+    .nav-btn {
+        margin-top: 20px;
+    }
+}
+
+/* use media quire for reponsive mobile device end */
+
+
+
+/* use media quire for reponsive tablet device start */
+
+@media screen and (max-width: 768px) {
+    nav {
+        flex-direction: column;
+    }
+    .menus, a {
+        flex-direction: column;
+        margin-top: 20px;
+    }
+    .nav-btn {
+        margin-top: 20px;
+    }
+}
+
+/* use media quire for reponsive tablet device end */
