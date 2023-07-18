@@ -39,6 +39,7 @@ nav {
     text-align: center;
     font-size: 1rem;
     color: #3C354F;
+    font-weight: 600;
 }
 
 .menus {
@@ -55,13 +56,97 @@ nav {
     background: rgba(11, 2, 35, 0.10);
     border: none;
     cursor: pointer;
+    font-weight: 600;
 }
+
 #yt-icon {
     color: red;
 }
 
 /* nav section end  */
 
+/* first banner section start  */
+
+
+section {
+    display: flex;
+    max-width: 1100px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 70px;
+}
+
+.banner-contant {
+    width: 50%;
+}
+
+.banner-title-1 {
+    color: #0B0223;
+    font-family: 'work sans';
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+.banner-title-2 {
+    font-family: "Work Sans";
+    font-size: 4.5rem;
+    font-weight: 800;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.banner-description {
+    color: #534C64;
+    font-family: "Work Sans";
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+.baneer-btn1 {
+    display: inline-flex;
+    padding: 17px 30px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 48px;
+    border: none;
+    margin-top: 25px;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    margin-right: 20px;
+    color: #FFF;
+    font-family: "Work Sans";
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.baneer-btn2 {
+    display: inline-flex;
+    padding: 17px 30px;
+    align-items: flex-start;
+    border-radius: 48px;
+    border: none;
+    background: #4EC5F7;
+    color: #FFF;
+    font-family: "Work Sans";
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.banner-img {
+    width: 50%;
+}
+
+.banner-imge {
+    width: 100%;
+    height: 100%;
+}
+
+/* first banner section end  */
 
 
 
@@ -86,13 +171,56 @@ nav {
     nav {
         flex-direction: column;
     }
-    .menus, a {
+
+    .menus,
+    a {
         flex-direction: column;
         margin-top: 20px;
+        font-weight: 600;
     }
+
     .nav-btn {
         margin-top: 20px;
+        font-weight: 600;
     }
+    section {
+        flex-direction: column;
+    }
+    .banner-title-1 {
+        font-size: 2rem;
+        font-weight: 600;
+    }
+    .banner-title-2 {
+        font-size: 3.5rem;
+        font-weight: 800;
+    }
+    .btn-bnr {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 20px 0px;
+    }
+    .baneer-btn1 {
+        padding: 5px 50px;
+        border-radius: 48px;
+        border: none;
+        background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+        color: #FFF;
+        font-family: "Work Sans";
+    }
+    .baneer-btn2 {
+        padding: 5px 50px;
+        border-radius: 48px;
+        border: none;
+        background: #4EC5F7;
+        color: #FFF;
+        font-family: "Work Sans";
+        margin-top: 25px;
+    }
+    .banner-img {
+        width: 70%;
+    }
+    
 }
 
 /* use media quire for reponsive mobile device end */
@@ -105,12 +233,52 @@ nav {
     nav {
         flex-direction: column;
     }
-    .menus, a {
+
+    .menus,
+    a {
         flex-direction: column;
         margin-top: 20px;
     }
+
     .nav-btn {
         margin-top: 20px;
+    }
+    section {
+        flex-direction: column;
+    }
+    .banner-title-1 {
+        font-size: 2rem;
+        font-weight: 600;
+    }
+    .banner-title-2 {
+        font-size: 3.5rem;
+        font-weight: 800;
+    }
+    .btn-bnr {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 20px 0px;
+    }
+    .baneer-btn1 {
+        padding: 5px 50px;
+        border-radius: 48px;
+        border: none;
+        background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+        color: #FFF;
+        font-family: "Work Sans";
+    }
+    .baneer-btn2 {
+        padding: 5px 50px;
+        border-radius: 48px;
+        border: none;
+        background: #4EC5F7;
+        color: #FFF;
+        font-family: "Work Sans";
+        margin-top: 25px;
+    }
+    .banner-img {
+        width: 70%;
     }
 }
 
