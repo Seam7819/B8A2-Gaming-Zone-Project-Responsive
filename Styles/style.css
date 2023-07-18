@@ -149,11 +149,91 @@ section {
 /* first banner section end  */
 
 
+/* <!-- online games section start  -->  */
+
+.game-title {
+    color: #0B0223;
+    text-align: center;
+    font-family: "Work Sans";
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 50px;
+}
+
+.gradiant-part {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: "Work Sans";
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.game-subtitle {
+    color: #534C64;
+    text-align: center;
+    font-family: "Work Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.all-games {
+    display: flex;
+    width: 1100px;
+    margin: auto;
+    text-align: center;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.game {
+    flex-basis: 20%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+}
+.game img {
+    width: 100%;
+    height: 300px;
+    display: block;
+}
+.effect {
+    background: transparent;
+    height: 89.1%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 1s;
+}
+.effect:hover {
+    background: rgba(0, 0, 0, 0.7);
+}
+.effect h3 {
+    width: 100%;
+    font-weight: 500;
+    color: #fff;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    opacity: 0;
+    transition: 0.5s;
+}
+.effect:hover h3 {
+    bottom: 49%;
+    opacity: 1;
+}
 
 
-
-
-
+/* <!-- online games section end  -->  */
 
 
 
@@ -183,23 +263,28 @@ section {
         margin-top: 20px;
         font-weight: 600;
     }
+
     section {
         flex-direction: column;
     }
+
     .banner-title-1 {
         font-size: 2rem;
         font-weight: 600;
     }
+
     .banner-title-2 {
         font-size: 3.5rem;
         font-weight: 800;
     }
+
     .btn-bnr {
         display: flex;
         align-items: center;
         justify-content: center;
         margin: 20px 0px;
     }
+
     .baneer-btn1 {
         padding: 5px 50px;
         border-radius: 48px;
@@ -208,6 +293,7 @@ section {
         color: #FFF;
         font-family: "Work Sans";
     }
+
     .baneer-btn2 {
         padding: 5px 50px;
         border-radius: 48px;
@@ -217,10 +303,11 @@ section {
         font-family: "Work Sans";
         margin-top: 25px;
     }
+
     .banner-img {
         width: 70%;
     }
-    
+
 }
 
 /* use media quire for reponsive mobile device end */
@@ -229,7 +316,7 @@ section {
 
 /* use media quire for reponsive tablet device start */
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width:425px) and (max-width: 768px) {
     nav {
         flex-direction: column;
     }
@@ -243,23 +330,28 @@ section {
     .nav-btn {
         margin-top: 20px;
     }
+
     section {
         flex-direction: column;
     }
+
     .banner-title-1 {
         font-size: 2rem;
         font-weight: 600;
     }
+
     .banner-title-2 {
         font-size: 3.5rem;
         font-weight: 800;
     }
+
     .btn-bnr {
         display: flex;
         align-items: center;
         justify-content: center;
         margin: 20px 0px;
     }
+
     .baneer-btn1 {
         padding: 5px 50px;
         border-radius: 48px;
@@ -268,6 +360,7 @@ section {
         color: #FFF;
         font-family: "Work Sans";
     }
+
     .baneer-btn2 {
         padding: 5px 50px;
         border-radius: 48px;
@@ -277,6 +370,7 @@ section {
         font-family: "Work Sans";
         margin-top: 25px;
     }
+
     .banner-img {
         width: 70%;
     }
