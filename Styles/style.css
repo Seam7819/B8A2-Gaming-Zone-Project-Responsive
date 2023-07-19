@@ -309,6 +309,36 @@ section {
 
 /* play instant section start  */
 
+/* game collection img section start  */
+
+.game-collection {
+    width: 1100px;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.img-game-c {
+    display: flex;
+    width: 200px;
+    height: 70px;
+    border-radius: 50px;
+    background: #FFF;
+    align-items: center;
+    padding-left: 5px;
+}
+
+.img-game-c:hover {
+    border: 3px solid palevioletred;
+    color: palevioletred;
+}
+
+/* game collection img section end  */
 
 
 
@@ -417,13 +447,48 @@ section {
         text-align: center;
         font-size: 18px;
     }
+
     .left-img {
         width: 80%;
         margin: 0 auto;
     }
+
     .play-instant {
         gap: 20px;
     }
+
+
+
+    .game-collection {
+        width: 90%;
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 auto;
+        height: 300px;
+    }
+
+    .img-game-c {
+        display: flex;
+        width: 100px;
+        height: 40px;
+        margin: 0 auto;
+    }
+    .img-game-c:hover {
+        border: 2px solid palevioletred;
+        color: palevioletred;
+    }
+
+    .img-game-c>
+    img{
+        width: 30px;
+        height: 30px;
+        border-radius: 50px;
+    }
+    .img-game-c>p{
+        text-align: center;
+        font-size: 10px;
+    }
+
 }
 
 /* use media quire for reponsive mobile device end */
@@ -512,11 +577,12 @@ section {
         width: 100%;
         height: 300px;
     }
+
     .game-img01 {
         width: 80%;
         height: 500px;
     }
-    
+
     .game-img02 {
         position: relative;
         margin-top: -250px;
@@ -524,6 +590,7 @@ section {
         width: 150px;
         height: 200px;
     }
+
     .play-instant {
         flex-direction: column;
         width: 100%;
@@ -539,12 +606,43 @@ section {
         text-align: center;
         font-size: 18px;
     }
+
     .left-img {
         width: 80%;
         margin: 0 auto;
     }
+
     .play-instant {
         gap: 20px;
+    }
+    .game-collection {
+        width: 90%;
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 auto;
+        height: 300px;
+    }
+
+    .img-game-c {
+        display: flex;
+        width: 100px;
+        height: 40px;
+        margin: 0 auto;
+    }
+    .img-game-c:hover {
+        border: 2px solid palevioletred;
+        color: palevioletred;
+    }
+
+    .img-game-c>
+    img{
+        width: 30px;
+        height: 30px;
+        border-radius: 50px;
+    }
+    .img-game-c>p{
+        text-align: center;
+        font-size: 10px;
     }
 }
 
