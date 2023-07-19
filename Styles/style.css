@@ -331,6 +331,7 @@ section {
     background: #FFF;
     align-items: center;
     padding-left: 5px;
+    gap: 10px;
 }
 
 .img-game-c:hover {
@@ -339,6 +340,109 @@ section {
 }
 
 /* game collection img section end  */
+
+/* footer section start  */
+
+.footer-section {
+    background-color: #0B0223;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-titles {
+    color: #fff;
+}
+
+.game-names {
+    display: flex;
+    justify-content: space-around;
+    color: #fff;
+    list-style: none;
+    gap: 30px;
+    text-align: center;
+    font-family: "Work Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 30px;
+}
+
+.icons-img {
+    color: #FFF;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 35px;
+}
+
+.icons-img .fa-twitter:hover {
+    color: #0068f0;
+}
+
+.icons-img .fa-facebook:hover {
+    color: #0033a0;
+}
+
+.icons-img .fa-youtube:hover {
+    color: #ff0000;
+}
+
+.icons-img .fa-linkedin:hover {
+    color: #4494fd;
+}
+
+.icons-img .fa-instagram:hover {
+    color: #660248;
+}
+
+.icons-img .fa-apple:hover {
+    color: #0edda9;
+}
+
+.fotter-space {
+    max-width: 1100px;
+}
+
+.footer-logo {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 35px;
+}
+
+.footer-terms {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    gap: 30px;
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-family: "Work Sans";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 35px;
+}
+
+small {
+    display: flex;
+    justify-content: center;
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-family: "Work Sans";
+}
+
+/* footer section end  */
+
+
+
+
+
 
 
 
@@ -473,22 +577,53 @@ section {
         height: 40px;
         margin: 0 auto;
     }
+
     .img-game-c:hover {
         border: 2px solid palevioletred;
         color: palevioletred;
     }
 
-    .img-game-c>
-    img{
+    .img-game-c>img {
         width: 30px;
         height: 30px;
         border-radius: 50px;
     }
-    .img-game-c>p{
+
+    .img-game-c>p {
         text-align: center;
         font-size: 10px;
     }
+.footer-section{
+    height: 500px;
+}
+    .fotter-space {
+        width: 100%;
+        margin: 0 auto;
+    }
 
+    .game-names {
+        flex-wrap: wrap;
+        gap: 25px;
+        text-align: center;
+        font-family: "Work Sans";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        margin-bottom: 55px;
+
+    }
+
+    .footer-logo {
+        margin-bottom: 55px;
+    }
+    .icons-img {
+        flex-wrap: wrap;
+        justify-content:space-around ;
+        font-size: 35px;
+        gap: 0;
+        margin-bottom: 55px;
+    }
 }
 
 /* use media quire for reponsive mobile device end */
@@ -615,6 +750,7 @@ section {
     .play-instant {
         gap: 20px;
     }
+
     .game-collection {
         width: 90%;
         display: flex;
@@ -629,18 +765,19 @@ section {
         height: 40px;
         margin: 0 auto;
     }
+
     .img-game-c:hover {
         border: 2px solid palevioletred;
         color: palevioletred;
     }
 
-    .img-game-c>
-    img{
+    .img-game-c>img {
         width: 30px;
         height: 30px;
         border-radius: 50px;
     }
-    .img-game-c>p{
+
+    .img-game-c>p {
         text-align: center;
         font-size: 10px;
     }
