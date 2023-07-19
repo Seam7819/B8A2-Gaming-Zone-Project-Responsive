@@ -192,18 +192,21 @@ section {
     justify-content: space-between;
     margin-top: 50px;
 }
+
 .game {
-    flex-basis: 20%;
+    flex-basis: 22%;
     border-radius: 10px;
     margin-bottom: 30px;
     position: relative;
     overflow: hidden;
 }
+
 .game img {
     width: 100%;
     height: 300px;
     display: block;
 }
+
 .effect {
     background: transparent;
     height: 89.1%;
@@ -213,9 +216,11 @@ section {
     left: 0;
     transition: 1s;
 }
+
 .effect:hover {
     background: rgba(0, 0, 0, 0.7);
 }
+
 .effect h3 {
     width: 100%;
     font-weight: 500;
@@ -227,6 +232,7 @@ section {
     opacity: 0;
     transition: 0.5s;
 }
+
 .effect:hover h3 {
     bottom: 49%;
     opacity: 1;
@@ -236,6 +242,72 @@ section {
 /* <!-- online games section end  -->  */
 
 
+/* play instant section start  */
+
+.play-instant {
+    width: 1100px;
+    display: flex;
+    align-items: center;
+    gap: 200px;
+}
+
+.left-img {
+    width: 50%;
+}
+
+.game-img01 {
+    width: 100%;
+    margin: 0 auto;
+    height: 500px;
+}
+
+.game-img02 {
+    position: relative;
+    margin-top: -250px;
+    margin-left: -100px;
+    width: 250px;
+    height: 300px;
+}
+
+.right-contant {
+    width: 50%;
+
+}
+
+.play-title {
+    text-align: right;
+    font-family: "Work Sans";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+    color: #0B0223;
+    font-family: "Work Sans";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+    margin-bottom: 20px;
+}
+
+.style-title {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.play-description {
+    color: #534C64;
+    text-align: right;
+    font-family: "Work Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+/* play instant section start  */
 
 
 
@@ -308,6 +380,50 @@ section {
         width: 70%;
     }
 
+    .game-title {
+        font-size: 1.5rem;
+    }
+
+    .gradiant-part {
+        font-size: 1.5rem;
+    }
+
+    .game-subtitle {
+        font-size: 0.75rem;
+    }
+
+    .all-games {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .game img {
+        width: 100%;
+        height: 300px;
+    }
+
+    .play-instant {
+        flex-direction: column;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .play-title {
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .play-description {
+        text-align: center;
+        font-size: 18px;
+    }
+    .left-img {
+        width: 80%;
+        margin: 0 auto;
+    }
+    .play-instant {
+        gap: 20px;
+    }
 }
 
 /* use media quire for reponsive mobile device end */
@@ -373,6 +489,62 @@ section {
 
     .banner-img {
         width: 70%;
+    }
+
+    .game-title {
+        font-size: 1.5rem;
+    }
+
+    .gradiant-part {
+        font-size: 1.5rem;
+    }
+
+    .game-subtitle {
+        font-size: 0.75rem;
+    }
+
+    .all-games {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .game img {
+        width: 100%;
+        height: 300px;
+    }
+    .game-img01 {
+        width: 80%;
+        height: 500px;
+    }
+    
+    .game-img02 {
+        position: relative;
+        margin-top: -250px;
+        margin-left: -100px;
+        width: 150px;
+        height: 200px;
+    }
+    .play-instant {
+        flex-direction: column;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .play-title {
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .play-description {
+        text-align: center;
+        font-size: 18px;
+    }
+    .left-img {
+        width: 80%;
+        margin: 0 auto;
+    }
+    .play-instant {
+        gap: 20px;
     }
 }
 
